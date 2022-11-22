@@ -1,0 +1,43 @@
+@font-face {
+    font-family: titulos;
+    src: url('./../fonts/Rye/Rye-Regular.ttf');
+}
+
+body{
+background-color: lightblue;
+font-family: 'Montserrat', sans-serif;
+padding: 4%;
+
+}
+h1,h2,h3{
+font-family: titulos;
+text-align: center;
+border: 1px dotted black;
+padding: 15px;
+}
+p{
+text-align: justify;
+text-indent: 2.5em;
+
+}
+#Espronceda{
+float:left;
+padding: 15px;
+width: 20%;
+
+}
+
+/*media queries*/
+@media only screen and (width<=600px){/* todas las excepciones para movil*/
+
+    #Espronceda{
+        width: 100%;
+    }
+}
+@media only screen and (width<=800){
+
+    #Espronceda{
+
+        width: 50%;
+    }
+}

@@ -1,0 +1,17 @@
+@font-face {
+    font-family: letrita;
+    src: url(../fonts/Rye/Rye-Regular.ttf);
+}
+body {
+    font-family: letrita;
+    background-image: url(../images/360_F_300077616_avAyXhRXGmqDfdapx8C9l9PXGuNLb1C1.jpg);
+    
+    
+
+}
+#poema {
+    background-color: rgb(169, 169, 169);
+    width: 30%;
+    text-align: center;
+    margin: auto;
+}
